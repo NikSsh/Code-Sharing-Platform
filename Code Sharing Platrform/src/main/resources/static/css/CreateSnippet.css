@@ -1,0 +1,35 @@
+.createSnippet {
+    text-align: left;
+    padding-left:30%;
+    padding-top:2%;
+}
+
+.createSnippet label, .createSnippet.input {
+    display: block;
+}
+
+.createSnippet label {
+    color: white;
+}
+
+button {
+    border-radius: 0.8em;
+    border-color:indianred;
+    color:white;
+    background-color:indianred;
+}
+
+textarea {
+    width:40em;
+    height: 20em;
+}
+
+
+.snippet pre{
+    color:white;
+}
+
+.snippet span{
+    padding: 4em;
+    color:lightgreen;
+}

@@ -1,0 +1,11 @@
+button#send_snippet {
+    margin-bottom: 10px;
+    width: 80px;
+    border-style: outset;
+}
+
+textarea {
+    width: 25vw;
+    height: 25vh;
+    font-size: 17px;
+}

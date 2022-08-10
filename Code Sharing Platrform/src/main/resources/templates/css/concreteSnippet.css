@@ -1,0 +1,31 @@
+.snippet {
+    text-align: left;
+    list-style: none;
+    border: 0.2em greenyellow dashed;
+    border-radius: 0.7em;
+    margin-bottom: 1em;
+}
+
+.snippet pre{
+    color:black;
+    border: 0.3em solid black;
+    background-color: lightgray;
+    width: 60%;
+    margin-left: 3.8em;
+}
+
+.snippet span{
+    padding: 4em;
+    color:lightgreen;
+}
+
+.snippet p {
+    color:white;
+    padding-left: 4em;
+}
+
+#views_restriction, #time_restriction {
+    text-decoration: underline;
+    padding: 0;
+    color: red;
+}

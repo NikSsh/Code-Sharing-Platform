@@ -1,0 +1,35 @@
+#snippets {
+    text-align: left;
+}
+
+.snippet {
+    text-align: left;
+    list-style: none;
+    border: 0.2em greenyellow dashed;
+    border-radius: 0.7em;
+    margin-bottom: 1em;
+    margin-left: 3em;
+    width: 60%;
+}
+
+.snippet pre{
+    color:white;
+}
+
+.snippet span{
+    padding: 4em;
+    color:lightgreen;
+}
+
+.snippet pre{
+    color:black;
+    border: 0.3em solid black;
+    background-color: lightgray;
+    width: 80%;
+    margin-left: 3.8em;
+}
+
+.snippet span{
+    padding: 4em;
+    color:lightgreen;
+}
