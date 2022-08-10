@@ -1,2 +1,2 @@
 # Code-Sharing-Platform
-Spring boot web application that allows you to share your code with your friends or team
+The Spring boot platform, which has an API and web interface, allows you to share code with friends or teammates
