@@ -1,5 +1,6 @@
 # Code-Sharing-Platform
-The Spring boot platform, which has an API and web interface, allows you to share code with friends or teammates
+The Spring boot platform, which has an API and web interface, allows you to share code with friends or teammates.
+Depends on such spring-boot starters: web, jsp freemarker, jpa (h2 database, ORM Hibernate)
 
 ## Description
 
