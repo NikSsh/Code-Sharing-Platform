@@ -64,6 +64,7 @@ body {
 #navbar li form button{
     border-radius:0.7em;
     background-color:indianred;
+
 }
 
 #navbar a {
@@ -74,7 +75,7 @@ body {
 }
 
 #showcase {
-    background-image: url("../img/showcase.jpg");
+    background-image: url("templates/img/showcase.jpg");
     background-position:center right;
     min-height:300px;
     margin-bottom:30px;
@@ -130,3 +131,4 @@ body {
         float:none;
     }
 }
+

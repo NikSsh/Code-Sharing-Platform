@@ -24,16 +24,16 @@
   <nav id="navbar">
     <div class="container">
         <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/code/new">Create new code snippet</a></li>
-                <li><a href="/code/latest">Latest non restricted code snippets</a></li>
-                <li>
-                    <form>
-                        <label>Find code snippet by id:</label>
-                        <input id="chosenSnippetIdInput" type="text">
-                        <button type="submit" onclick="redirectToChosenSnippet()">Find</button>
-                    </form>
-                </li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/code/new">Create new code snippet</a></li>
+            <li><a href="/code/latest">Latest non restricted code snippets</a></li>
+            <li>>
+                <form action="/code">
+                    <label>Find code snippet by id:</label>
+                    <input name="UUID" id="chosenSnippetIdInput" type="text">
+                    <button type="submit" value="Find"></button>
+                </form>
+            </li>
         </ul>
     </div>
   </nav>

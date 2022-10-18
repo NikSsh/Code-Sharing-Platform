@@ -24,11 +24,11 @@
                 <li><a href="/">Home</a></li>
                 <li><a href="/code/new">Create new code snippet</a></li>
                 <li><a href="/code/latest">Latest non restricted code snippets</a></li>
-                <li>>
-                    <form>
+                <li>
+                    <form action="/code">
                         <label>Find code snippet by id:</label>
-                        <input id="chosenSnippetIdInput" type="text">
-                        <button type="submit" onclick="redirectToChosenSnippet()">Find</button>
+                        <input name="UUID" id="chosenSnippetIdInput" type="text">
+                        <button type="submit">Find</button>
                     </form>
                 </li>
             </ul>
@@ -43,8 +43,8 @@
     </section>
 
     <div class = "container">
-        <img class = "customImages" src = "./img/team2.png" alt="team2">
-        <img class = "customImages" src = "./img/teamnew.jpg" alt="teamnew">
+        <img class = "customImages" src = "img/team2.png" alt="team2"/>
+        <img class = "customImages" src = "img/teamnew.jpg" alt="teamnew"/>
     </div>
 
 

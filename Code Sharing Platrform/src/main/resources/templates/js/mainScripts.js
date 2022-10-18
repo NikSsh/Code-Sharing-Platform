@@ -1,7 +1,3 @@
-function redirectToChosenSnippet() {
-    let snippet_id = document.getElementById("chosenSnippetIdInput").value;
-    window.location.assign('http://localhost:8088/code/' + snippet_id);
-}
 
 function send() {
     let object = {
@@ -17,7 +13,7 @@ function send() {
     xhr.setRequestHeader('Content-type', 'application/json; charset=utf-8');
     xhr.send(json);
 
-    if (xhr.status == 200) {
+    if (xhr.status === 200) {
         alert(xhr.responseText);
         //alert("Success!");
     }
