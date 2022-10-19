@@ -1,5 +1,5 @@
 # Code-Sharing-Platform
-The Spring boot platform, which has an API and web interface, allows you to share code with friends or teammates.
+The Spring boot platform, which has a REST API and web interface, allows you to share code with friends or teammates.
 
 Depends on such spring-boot starters: web, jsp freemarker, jpa (h2 database, ORM Hibernate)
 
@@ -60,7 +60,7 @@ After pressing sumbit button you will get id of saved code snippet in json forma
 
 ![Снимок](https://user-images.githubusercontent.com/71446610/183885434-d352d99b-9fe8-40ef-96c8-4eb6bc7a65c2.PNG)
 
-- GET /code/yourid, if some of the restrictions have been violated, the page will return a 404 http code (NOT FOUND)
+-  you can find a snippet by passing its UUID in the input field of the navigation bar and clicking "Find", this will redirect you to /code by passing the UUID in the query parameters, if some of the restrictions have been violated, the page will return a 404 http code (NOT FOUND)
 ![Concrete](https://user-images.githubusercontent.com/71446610/183885781-dd633177-3559-4986-9a6d-0558ac459076.PNG)
 
 - GET /code/latest, if there are no code snippetes without any restrictions, the page will return a 404 http code (NOT FOUND)
